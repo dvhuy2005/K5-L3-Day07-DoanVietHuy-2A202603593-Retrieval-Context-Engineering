@@ -1,0 +1,22 @@
+{
+  "method": "tfidf",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 800,
+  "answerable": 15,
+  "unanswerable": 2,
+  "hit_at_1": {
+    "n": 1,
+    "N": 15
+  },
+  "evidence_hit_at_3": {
+    "n": 2,
+    "N": 15
+  },
+  "context_evidence_rate": {
+    "n": 1,
+    "N": 15
+  },
+  "median_search_and_pack_ms": 0.58,
+  "local_retrieval_api_cost_usd": 0
+}

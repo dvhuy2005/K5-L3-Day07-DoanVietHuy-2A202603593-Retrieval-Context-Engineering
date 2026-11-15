@@ -1,0 +1,22 @@
+{
+  "method": "dense",
+  "split": "test",
+  "top_k": 10,
+  "budget_chars": 3000,
+  "answerable": 5,
+  "unanswerable": 2,
+  "hit_at_1": {
+    "n": 1,
+    "N": 5
+  },
+  "evidence_hit_at_3": {
+    "n": 3,
+    "N": 5
+  },
+  "context_evidence_rate": {
+    "n": 3,
+    "N": 5
+  },
+  "median_search_and_pack_ms": 18.14,
+  "local_retrieval_api_cost_usd": 0
+}

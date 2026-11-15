@@ -1,0 +1,1030 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Người dùng gặp rủi ro gì khi tin vào thông tin sai mà AI nói rất tự tin?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p045-para-000-005",
+        "text": "Data Privacy; Intellectual Property; Information Integrity; Confabulation; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 45,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.028370221327967807,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p015-para-001-000",
+        "text": "Trustworthy AI Characteristics: Accountable and Transparent, Fair with Harmful Bias Managed, Privacy Enhanced",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 15,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p021-para-000-003",
+        "text": "Human-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 21,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p045-para-000-005 | starter/data/NIST.AI.600-1.pdf | page 45]\nData Privacy; Intellectual Property; Information Integrity; Confabulation; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Governance and Oversight, Operation and Monitoring\n\n[nist-ai-600-1-p015-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 15]\nTrustworthy AI Characteristics: Accountable and Transparent, Fair with Harmful Bias Managed, Privacy Enhanced\n\n[nist-ai-600-1-p021-para-000-003 | starter/data/NIST.AI.600-1.pdf | page 21]\nHuman-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring",
+    "context_ids": [
+      "nist-ai-600-1-p045-para-000-005",
+      "nist-ai-600-1-p015-para-001-000",
+      "nist-ai-600-1-p021-para-000-003"
+    ],
+    "elapsed_ms": 105.16,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "NIST gọi hiện tượng AI tự tin tạo ra nội dung sai là gì?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p039-para-000-003",
+        "text": "Information Integrity; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Domain Experts, End-Users, Operation and Monitoring, TEVV",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 39,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.029236022193768675,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p035-para-000-001",
+        "text": "MS-2.3-004 Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate GAI trustworthy characteristics. CBRN Information or Capabilities; Data Privacy; Confabulation; Information Integrity; Information Security; Dangerous, Violent, or Hateful Content; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, TEVV",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 35,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.028782894736842105,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p045-para-000-005",
+        "text": "Data Privacy; Intellectual Property; Information Integrity; Confabulation; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 45,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.02871794871794872,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p039-para-000-003 | starter/data/NIST.AI.600-1.pdf | page 39]\nInformation Integrity; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Domain Experts, End-Users, Operation and Monitoring, TEVV\n\n[nist-ai-600-1-p035-para-000-001 | starter/data/NIST.AI.600-1.pdf | page 35]\nMS-2.3-004 Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate GAI trustworthy characteristics. CBRN Information or Capabilities; Data Privacy; Confabulation; Information Integrity; Information Security; Dangerous, Violent, or Hateful Content; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, TEVV",
+    "context_ids": [
+      "nist-ai-600-1-p039-para-000-003",
+      "nist-ai-600-1-p035-para-000-001"
+    ],
+    "elapsed_ms": 18.16,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Vì sao chặn các yêu cầu có nội dung nguy hiểm vẫn có thể chưa đủ?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p011-para-001-000",
+        "text": "Many current systems restrict model outputs to limit certain content or in response to certain prompts, but this approach may still produce harmful recommendations in response to other less-explicit, novel prompts (also relevant to CBRN Information or Capabilities, Data Privacy, Information Security, and Obscene, Degrading and/or Abusive Content). Crafting such prompts deliberately is known as “jailbreaking,” or, manipulating prompts to circumvent output controls.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 11,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nist-ai-600-1-p030-para-000-005",
+        "text": "MP-4.1-005 Establish policies for collection, retention, and minimum quality of data, in consideration of the following risks: Disclosure of inappropriate CBRN information; Use of Illegal or dangerous content; Offensive cyber capabilities; Training data imbalances that could give rise to harmful biases; Leak of personally identifiable information, including facial likenesses of individuals.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 30,
+        "metadata": {
+          "section": "MAP"
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p040-para-000-004",
+        "text": "traffic and manually annotating denigrating content). Harmful Bias and Homogenization; Dangerous, Violent, or Hateful Content",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 40,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p011-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 11]\nMany current systems restrict model outputs to limit certain content or in response to certain prompts, but this approach may still produce harmful recommendations in response to other less-explicit, novel prompts (also relevant to CBRN Information or Capabilities, Data Privacy, Information Security, and Obscene, Degrading and/or Abusive Content). Crafting such prompts deliberately is known as “jailbreaking,” or, manipulating prompts to circumvent output controls.\n\n[nist-ai-600-1-p040-para-000-004 | starter/data/NIST.AI.600-1.pdf | page 40]\ntraffic and manually annotating denigrating content). Harmful Bias and Homogenization; Dangerous, Violent, or Hateful Content",
+    "context_ids": [
+      "nist-ai-600-1-p011-para-001-000",
+      "nist-ai-600-1-p040-para-000-004"
+    ],
+    "elapsed_ms": 18.73,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Những hoạt động nào của AI tạo sinh có thể gây tác động lớn tới năng lượng và môi trường?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p046-para-002-000",
+        "text": "AI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.027912386121341344,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p042-para-002-000",
+        "text": "AI Actor Tasks: AI Impact Assessment, Domain Experts, Operation and Monitoring, TEVV",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 42,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.025978407557354925,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p021-para-000-003",
+        "text": "Human-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 21,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p046-para-002-000 | starter/data/NIST.AI.600-1.pdf | page 46]\nAI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring\n\n[nist-ai-600-1-p042-para-002-000 | starter/data/NIST.AI.600-1.pdf | page 42]\nAI Actor Tasks: AI Impact Assessment, Domain Experts, Operation and Monitoring, TEVV\n\n[nist-ai-600-1-p021-para-000-003 | starter/data/NIST.AI.600-1.pdf | page 21]\nHuman-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring",
+    "context_ids": [
+      "nist-ai-600-1-p046-para-002-000",
+      "nist-ai-600-1-p042-para-002-000",
+      "nist-ai-600-1-p021-para-000-003"
+    ],
+    "elapsed_ms": 20.65,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Theo NIST, lạm dụng dữ liệu tổng hợp khi huấn luyện có thể gây ra hiện tượng gì?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p035-para-000-001",
+        "text": "MS-2.3-004 Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate GAI trustworthy characteristics. CBRN Information or Capabilities; Data Privacy; Confabulation; Information Integrity; Information Security; Dangerous, Violent, or Hateful Content; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, TEVV",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 35,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.028283227848101264,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p011-para-003-000",
+        "text": "Models may leak, generate, or correctly infer sensitive information about individuals. For example, during adversarial attacks, LLMs have revealed sensitive information (from the public domain) that was included in their training data. This problem has been referred to as data memorization, and may pose exacerbated privacy risks even for data present only in a small number of training samples.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 11,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p035-para-000-001 | starter/data/NIST.AI.600-1.pdf | page 35]\nMS-2.3-004 Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate GAI trustworthy characteristics. CBRN Information or Capabilities; Data Privacy; Confabulation; Information Integrity; Information Security; Dangerous, Violent, or Hateful Content; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, TEVV\n\n[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+    "context_ids": [
+      "nist-ai-600-1-p035-para-000-001",
+      "nist-ai-600-1-p005-para-004-000"
+    ],
+    "elapsed_ms": 19.19,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Trong tấn công prompt injection trực tiếp, kẻ tấn công đưa nội dung độc hại vào AI bằng cách nào?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p015-para-000-001",
+        "text": "Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved. Security researchers have already demonstrated how indirect prompt injections can exploit vulnerabilities by stealing proprietary data or running malicious code remotely on a machine. Merely querying a closed production model can elicit previously undisclosed information about that model.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 15,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p037-para-000-007",
+        "text": "MS-2.7-007 Perform AI red-teaming to assess resilience against: Abuse to facilitate attacks on other systems (e.g., malicious code generation, enhanced phishing content), GAI attacks (e.g., prompt injection), ML attacks (e.g., adversarial examples/prompts, data poisoning, membership inference, model extraction, sponge examples). Information Security; Harmful Bias and Homogenization; Dangerous, Violent, or Hateful Content",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 37,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p015-para-000-000",
+        "text": "11 value chain (e.g., data inputs, processing, GAI training, or deployment environments), conventional cybersecurity practices may need to adapt or evolve. For instance, prompt injection involves modifying what input is provided to a GAI system so that it behaves in unintended ways. In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 15,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.02921395544346364,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      }
+    ],
+    "context": "[nist-ai-600-1-p015-para-000-001 | starter/data/NIST.AI.600-1.pdf | page 15]\nIndirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved. Security researchers have already demonstrated how indirect prompt injections can exploit vulnerabilities by stealing proprietary data or running malicious code remotely on a machine. Merely querying a closed production model can elicit previously undisclosed information about that model.",
+    "context_ids": [
+      "nist-ai-600-1-p015-para-000-001"
+    ],
+    "elapsed_ms": 22.97,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Prompt injection gián tiếp đưa chỉ dẫn độc hại tới ứng dụng AI bằng đường nào?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p037-para-000-007",
+        "text": "MS-2.7-007 Perform AI red-teaming to assess resilience against: Abuse to facilitate attacks on other systems (e.g., malicious code generation, enhanced phishing content), GAI attacks (e.g., prompt injection), ML attacks (e.g., adversarial examples/prompts, data poisoning, membership inference, model extraction, sponge examples). Information Security; Harmful Bias and Homogenization; Dangerous, Violent, or Hateful Content",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 37,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.0293236301369863,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p015-para-000-000",
+        "text": "11 value chain (e.g., data inputs, processing, GAI training, or deployment environments), conventional cybersecurity practices may need to adapt or evolve. For instance, prompt injection involves modifying what input is provided to a GAI system so that it behaves in unintended ways. In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 15,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p044-para-001-000",
+        "text": "MANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 44,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p037-para-000-007 | starter/data/NIST.AI.600-1.pdf | page 37]\nMS-2.7-007 Perform AI red-teaming to assess resilience against: Abuse to facilitate attacks on other systems (e.g., malicious code generation, enhanced phishing content), GAI attacks (e.g., prompt injection), ML attacks (e.g., adversarial examples/prompts, data poisoning, membership inference, model extraction, sponge examples). Information Security; Harmful Bias and Homogenization; Dangerous, Violent, or Hateful Content\n\n[nist-ai-600-1-p044-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 44]\nMANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems. Action ID Suggested Action GAI Risks",
+    "context_ids": [
+      "nist-ai-600-1-p037-para-000-007",
+      "nist-ai-600-1-p044-para-001-000"
+    ],
+    "elapsed_ms": 19.66,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Vì sao các thành phần AI lấy từ bên thứ ba có thể làm giảm trách nhiệm giải trình?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p046-para-002-000",
+        "text": "AI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.03131881575727918,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p026-para-000-008",
+        "text": "Human-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring, TEVV, Third-party entities",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 26,
+        "metadata": {
+          "section": "MIXED"
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p032-para-000-002",
+        "text": "MP-5.2-002 Plan regular engagements with AI Actors responsible for inputs to GAI systems, including third-party data and algorithms, to review and evaluate unanticipated impacts. Human-AI Configuration; Value Chain and Component Integration AI Actor Tasks: AI Deployment, AI Design, AI Impact Assessment, Affected Individuals and Communities, Domain Experts, End- Users, Human Factors, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 32,
+        "metadata": {
+          "section": "MIXED"
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p046-para-002-000 | starter/data/NIST.AI.600-1.pdf | page 46]\nAI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring\n\n[nist-ai-600-1-p026-para-000-008 | starter/data/NIST.AI.600-1.pdf | page 26]\nHuman-AI Configuration; Information Security; Value Chain and Component Integration AI Actor Tasks: AI Deployment, Operation and Monitoring, TEVV, Third-party entities",
+    "context_ids": [
+      "nist-ai-600-1-p046-para-002-000",
+      "nist-ai-600-1-p026-para-000-008"
+    ],
+    "elapsed_ms": 19.26,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "NIST nêu những kiểu tác động nào thuộc rủi ro riêng tư dữ liệu?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p006-para-000-002",
+        "text": "Future revisions of this profile will include additional AI RMF subcategories, risks, and suggested actions based on additional considerations of GAI as the space evolves and empirical evidence indicates additional risks. A glossary of terms pertinent to GAI risk management will be developed and hosted on NIST’s Trustworthy & Responsible AI Resource Center (AIRC), and added to The Language of Trustworthy AI: An In-Depth Glossary of Terms.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.028205128205128206,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p018-para-001-001",
+        "text": "GV-1.3-001 Consider the following factors when updating or defining risk tiers for GAI: Abuses and impacts to information integrity; Dependencies between GAI and other IT or data systems; Harm to fundamental rights or public safety; Presentation of obscene, objectionable, offensive, discriminatory, invalid or untruthful output; Psychological impacts to humans (e.g., anthropomorphization, algorithmic aversion, emotional entanglement); Possibility for malicious use; Whether the system introduces",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 18,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p006-para-000-002 | starter/data/NIST.AI.600-1.pdf | page 6]\nFuture revisions of this profile will include additional AI RMF subcategories, risks, and suggested actions based on additional considerations of GAI as the space evolves and empirical evidence indicates additional risks. A glossary of terms pertinent to GAI risk management will be developed and hosted on NIST’s Trustworthy & Responsible AI Resource Center (AIRC), and added to The Language of Trustworthy AI: An In-Depth Glossary of Terms.",
+    "context_ids": [
+      "nist-ai-600-1-p006-para-000-002"
+    ],
+    "elapsed_ms": 18.41,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "NIST gợi ý tổ chức ghi lại điều gì để tăng minh bạch nội dung AI?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p006-para-000-002",
+        "text": "Future revisions of this profile will include additional AI RMF subcategories, risks, and suggested actions based on additional considerations of GAI as the space evolves and empirical evidence indicates additional risks. A glossary of terms pertinent to GAI risk management will be developed and hosted on NIST’s Trustworthy & Responsible AI Resource Center (AIRC), and added to The Language of Trustworthy AI: An In-Depth Glossary of Terms.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.02854251012145749,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p045-para-000-005",
+        "text": "Data Privacy; Intellectual Property; Information Integrity; Confabulation; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 45,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.027417840375586856,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.\n\n[nist-ai-600-1-p045-para-000-005 | starter/data/NIST.AI.600-1.pdf | page 45]\nData Privacy; Intellectual Property; Information Integrity; Confabulation; Harmful Bias and Homogenization AI Actor Tasks: AI Deployment, AI Impact Assessment, Governance and Oversight, Operation and Monitoring",
+    "context_ids": [
+      "nist-ai-600-1-p005-para-004-000",
+      "nist-ai-600-1-p045-para-000-005"
+    ],
+    "elapsed_ms": 17.64,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "NIST gợi ý tổ chức xác định trách nhiệm gì khi theo dõi hệ thống AI định kỳ?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p046-para-002-000",
+        "text": "AI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.03028233151183971,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p032-para-000-002",
+        "text": "MP-5.2-002 Plan regular engagements with AI Actors responsible for inputs to GAI systems, including third-party data and algorithms, to review and evaluate unanticipated impacts. Human-AI Configuration; Value Chain and Component Integration AI Actor Tasks: AI Deployment, AI Design, AI Impact Assessment, Affected Individuals and Communities, Domain Experts, End- Users, Human Factors, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 32,
+        "metadata": {
+          "section": "MIXED"
+        },
+        "score": 0.028381642512077296,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.\n\n[nist-ai-600-1-p046-para-002-000 | starter/data/NIST.AI.600-1.pdf | page 46]\nAI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring",
+    "context_ids": [
+      "nist-ai-600-1-p005-para-004-000",
+      "nist-ai-600-1-p046-para-002-000"
+    ],
+    "elapsed_ms": 18.96,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Trong phần MAP, NIST gợi ý phối hợp với ai khi xác định bối cảnh sử dụng AI có thể chấp nhận?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "section": "MAP"
+    },
+    "results": [
+      {
+        "id": "nist-ai-600-1-p028-para-001-000",
+        "text": "MAP 2.2: Information about the AI system’s knowledge limits and how system output may be utilized and overseen by humans is documented. Documentation provides sufficient information to assist relevant AI Actors when making decisions and taking subsequent actions. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 28,
+        "metadata": {
+          "section": "MAP"
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p028-para-000-000",
+        "text": "24 MAP 2.1: The specific tasks and methods used to implement the tasks that the AI system will support are defined (e.g., classifiers, generative models, recommenders). Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 28,
+        "metadata": {
+          "section": "MAP"
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p029-para-002-000",
+        "text": "MAP 3.4: Processes for operator and practitioner proficiency with AI system performance and trustworthiness – and relevant technical standards and certifications – are defined, assessed, and documented. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 29,
+        "metadata": {
+          "section": "MAP"
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p028-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 28]\nMAP 2.2: Information about the AI system’s knowledge limits and how system output may be utilized and overseen by humans is documented. Documentation provides sufficient information to assist relevant AI Actors when making decisions and taking subsequent actions. Action ID Suggested Action GAI Risks\n\n[nist-ai-600-1-p028-para-000-000 | starter/data/NIST.AI.600-1.pdf | page 28]\n24 MAP 2.1: The specific tasks and methods used to implement the tasks that the AI system will support are defined (e.g., classifiers, generative models, recommenders). Action ID Suggested Action GAI Risks",
+    "context_ids": [
+      "nist-ai-600-1-p028-para-001-000",
+      "nist-ai-600-1-p028-para-000-000"
+    ],
+    "elapsed_ms": 21.95,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Trong phần MEASURE, NIST gợi ý theo dõi tác động của AI liên tục để kiểm tra điều gì giữa các nhóm người?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "section": "MEASURE"
+    },
+    "results": [
+      {
+        "id": "nist-ai-600-1-p039-para-000-000",
+        "text": "35 MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the MAP function – to inform responsible use and governance. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 39,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p035-para-001-000",
+        "text": "MEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. Action ID Suggested Action Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 35,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.029273504273504274,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p034-para-001-000",
+        "text": "MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 34,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.029211087420042643,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p039-para-000-000 | starter/data/NIST.AI.600-1.pdf | page 39]\n35 MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the MAP function – to inform responsible use and governance. Action ID Suggested Action GAI Risks\n\n[nist-ai-600-1-p035-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 35]\nMEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. Action ID Suggested Action Risks",
+    "context_ids": [
+      "nist-ai-600-1-p039-para-000-000",
+      "nist-ai-600-1-p035-para-001-000"
+    ],
+    "elapsed_ms": 21.86,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Trong phần MANAGE, tổ chức có những cách nào để ứng phó với rủi ro AI?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "section": "MANAGE"
+    },
+    "results": [
+      {
+        "id": "nist-ai-600-1-p044-para-001-000",
+        "text": "MANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 44,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p048-para-001-000",
+        "text": "MANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI Actors, appeal and override, decommissioning, incident response, recovery, and change management. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 48,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p046-para-003-000",
+        "text": "MANAGE 3.1: AI risks and benefits from third-party resources are regularly monitored, and risk controls are applied and documented. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p044-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 44]\nMANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems. Action ID Suggested Action GAI Risks\n\n[nist-ai-600-1-p048-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 48]\nMANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI Actors, appeal and override, decommissioning, incident response, recovery, and change management. Action ID Suggested Action GAI Risks",
+    "context_ids": [
+      "nist-ai-600-1-p044-para-001-000",
+      "nist-ai-600-1-p048-para-001-000"
+    ],
+    "elapsed_ms": 20.4,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "NIST gợi ý chính sách lưu trữ hồ sơ nhằm giữ lại lịch sử của hoạt động nào?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p014-para-003-000",
+        "text": "12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 14,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.031024531024531024,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p020-para-000-003",
+        "text": "GV-1.5-003 Maintain a document retention policy to keep history for test, evaluation, validation, and verification (TEVV), and digital content transparency methods for GAI. Information Integrity; Intellectual Property AI Actor Tasks: Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 20,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      }
+    ],
+    "context": "[nist-ai-600-1-p014-para-003-000 | starter/data/NIST.AI.600-1.pdf | page 14]\n12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.\n\n[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+    "context_ids": [
+      "nist-ai-600-1-p014-para-003-000",
+      "nist-ai-600-1-p005-para-004-000"
+    ],
+    "elapsed_ms": 18.78,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-d16",
+    "split": "dev",
+    "question": "NIST AI 600-1 nêu tên bệnh viện nào ở Việt Nam đã triển khai kiểm soát confabulation?",
+    "answerable": false,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p005-para-000-000",
+        "text": "1 1.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.031054405392392875,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p014-para-003-000",
+        "text": "12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 14,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.031054405392392875,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      }
+    ],
+    "context": "[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.\n\n[nist-ai-600-1-p005-para-000-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n1 1.\n\n[nist-ai-600-1-p014-para-003-000 | starter/data/NIST.AI.600-1.pdf | page 14]\n12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+    "context_ids": [
+      "nist-ai-600-1-p005-para-004-000",
+      "nist-ai-600-1-p005-para-000-000",
+      "nist-ai-600-1-p014-para-003-000"
+    ],
+    "elapsed_ms": 20.06,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "d7-d17",
+    "split": "dev",
+    "question": "Theo NIST AI 600-1, lệ phí bắt buộc bằng USD để được chứng nhận tuân thủ là bao nhiêu?",
+    "answerable": false,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p017-para-004-000",
+        "text": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 17,
+        "metadata": {
+          "section": "MIXED"
+        },
+        "score": 0.030834914611005692,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p014-para-003-000",
+        "text": "12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 14,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.03055037313432836,
+        "strategy": "hybrid_rrf",
+        "hit": null
+      }
+    ],
+    "context": "[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.\n\n[nist-ai-600-1-p017-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 17]\nGOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.\n\n[nist-ai-600-1-p014-para-003-000 | starter/data/NIST.AI.600-1.pdf | page 14]\n12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+    "context_ids": [
+      "nist-ai-600-1-p005-para-004-000",
+      "nist-ai-600-1-p017-para-004-000",
+      "nist-ai-600-1-p014-para-003-000"
+    ],
+    "elapsed_ms": 19.03,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]

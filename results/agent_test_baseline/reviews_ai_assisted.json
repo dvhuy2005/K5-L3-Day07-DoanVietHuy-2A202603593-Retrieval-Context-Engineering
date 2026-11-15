@@ -1,0 +1,51 @@
+[
+  {
+    "query_id": "d7-t01",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "reason": "Answer matches GV-1.7-001; cited page 21 chunk contains the full action sentence.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t02",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "reason": "Answer covers formulation, supply chains and decommission; cited page 23 chunk supports these stages.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t03",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Agent abstained although GV-5.1-001 provides the answer.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t04",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Agent abstained although MS-2.6-003 provides the answer.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t05",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Agent abstained although MG-3.2-008 provides the answer.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t06",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The 2024 PDF cannot contain a 2026 Gemini 3.8 Flash measurement.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  },
+  {
+    "query_id": "d7-t07",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The NIST risk profile is not a list of products certified in 2026.",
+    "review_status": "AI-assisted reading; learner confirmation pending"
+  }
+]

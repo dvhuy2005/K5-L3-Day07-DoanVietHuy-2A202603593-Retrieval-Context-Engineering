@@ -56,6 +56,23 @@ class AgentTests(unittest.TestCase):
         self.assertEqual(result['status'], 'answered')
         self.assertTrue(all(len(e['context']) <= 90 for e in result['events'] if e['event'] == 'search'))
 
+    def test_latest_search_can_replace_stale_context(self):
+        old = {**CHUNK, 'id': 'old', 'text': 'Đoạn cũ không trả lời.'}
+        new = {**CHUNK, 'id': 'new', 'text': 'Đoạn mới có bằng chứng.'}
+        class TwoSearches:
+            def __init__(self): self.i = 0
+            def search(self, query, *, filters, top_k):
+                self.i += 1
+                return [old] if self.i == 1 else [new]
+        c = Controller([
+            {'action': 'search', 'query': 'cũ'},
+            {'action': 'search', 'query': 'mới'},
+            {'action': 'answer', 'answer': 'Có bằng chứng [new]', 'citations': ['new']},
+        ])
+        result = run_agent('Hỏi?', c, TwoSearches(), budget=55, prefer_latest=True)
+        self.assertEqual(result['status'], 'answered')
+        self.assertEqual(result['events'][1]['context_ids'], ['new'])
+
     def test_configurable_retrieval_allows_more_than_two_calls(self):
         c = Controller([{'action': 'search', 'query': str(i)} for i in range(3)] +
                        [{'action': 'answer', 'answer': '7 ngày [c1]', 'citations': ['c1']}])

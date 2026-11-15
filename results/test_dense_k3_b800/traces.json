@@ -1,0 +1,423 @@
+[
+  {
+    "query_id": "d7-t01",
+    "split": "test",
+    "question": "Theo GV-1.7-001, tổ chức cần chuẩn bị khả năng nào cho hệ thống AI tạo sinh?",
+    "answerable": true,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p020-para-001-001",
+        "text": "GV-1.6-001 Enumerate organizational GAI systems for incorporation into AI system inventory and adjust AI system inventory requirements to account for GAI risks. Information Security",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 20,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.6794917583465576,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p020-para-001-000",
+        "text": "GOVERN 1.6: Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 20,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.6688272953033447,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p023-para-000-001",
+        "text": "GV-4.1-003 Establish policies, procedures, and processes for oversight functions (e.g., senior leadership, legal, compliance, including internal evaluation) across the GAI lifecycle, from problem formulation and supply chains to system decommission. Value Chain and Component Integration AI Actor Tasks: AI Deployment, AI Design, AI Development, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 23,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.6617947220802307,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p020-para-001-001 | starter/data/NIST.AI.600-1.pdf | page 20]\nGV-1.6-001 Enumerate organizational GAI systems for incorporation into AI system inventory and adjust AI system inventory requirements to account for GAI risks. Information Security\n\n[nist-ai-600-1-p020-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 20]\nGOVERN 1.6: Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities. Action ID Suggested Action GAI Risks",
+    "context_ids": [
+      "nist-ai-600-1-p020-para-001-001",
+      "nist-ai-600-1-p020-para-001-000"
+    ],
+    "elapsed_ms": 106.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-t02",
+    "split": "test",
+    "question": "Chức năng giám sát tổ chức nên bao phủ những giai đoạn nào của vòng đời AI tạo sinh?",
+    "answerable": true,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p046-para-002-000",
+        "text": "AI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.7368195652961731,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p023-para-000-001",
+        "text": "GV-4.1-003 Establish policies, procedures, and processes for oversight functions (e.g., senior leadership, legal, compliance, including internal evaluation) across the GAI lifecycle, from problem formulation and supply chains to system decommission. Value Chain and Component Integration AI Actor Tasks: AI Deployment, AI Design, AI Development, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 23,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.6909770965576172,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "nist-ai-600-1-p022-para-000-000",
+        "text": "18 GOVERN 3.2: Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems. Action ID Suggested Action GAI Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 22,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.6730509996414185,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p046-para-002-000 | starter/data/NIST.AI.600-1.pdf | page 46]\nAI Actor Tasks: AI Deployment, Governance and Oversight, Operation and Monitoring\n\n[nist-ai-600-1-p023-para-000-001 | starter/data/NIST.AI.600-1.pdf | page 23]\nGV-4.1-003 Establish policies, procedures, and processes for oversight functions (e.g., senior leadership, legal, compliance, including internal evaluation) across the GAI lifecycle, from problem formulation and supply chains to system decommission. Value Chain and Component Integration AI Actor Tasks: AI Deployment, AI Design, AI Development, Operation and Monitoring",
+    "context_ids": [
+      "nist-ai-600-1-p046-para-002-000",
+      "nist-ai-600-1-p023-para-000-001"
+    ],
+    "elapsed_ms": 23.22,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-t03",
+    "split": "test",
+    "question": "GV-5.1-001 yêu cầu phân bổ những gì cho việc tiếp nhận phản hồi và khắc phục?",
+    "answerable": true,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p022-para-001-001",
+        "text": "GV-3.2-004 Establish policies for user feedback mechanisms for GAI systems which include thorough instructions and any mechanisms for recourse. Human-AI Configuration",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 22,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.5954820513725281,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p018-para-001-004",
+        "text": "GV-1.3-003 Establish a test plan and response policy, before developing highly capable models, to periodically evaluate whether the model may misuse CBRN information or capabilities and/or offensive cyber capabilities. CBRN Information or Capabilities; Information Security",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 18,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.5537322759628296,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p024-para-001-001",
+        "text": "GV-5.1-001 Allocate time and resources for outreach, feedback, and recourse processes in GAI system development. Human-AI Configuration; Harmful Bias and Homogenization",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 24,
+        "metadata": {
+          "section": "GOVERN"
+        },
+        "score": 0.531256914138794,
+        "strategy": "dense",
+        "hit": true
+      }
+    ],
+    "context": "[nist-ai-600-1-p022-para-001-001 | starter/data/NIST.AI.600-1.pdf | page 22]\nGV-3.2-004 Establish policies for user feedback mechanisms for GAI systems which include thorough instructions and any mechanisms for recourse. Human-AI Configuration\n\n[nist-ai-600-1-p018-para-001-004 | starter/data/NIST.AI.600-1.pdf | page 18]\nGV-1.3-003 Establish a test plan and response policy, before developing highly capable models, to periodically evaluate whether the model may misuse CBRN information or capabilities and/or offensive cyber capabilities. CBRN Information or Capabilities; Information Security",
+    "context_ids": [
+      "nist-ai-600-1-p022-para-001-001",
+      "nist-ai-600-1-p018-para-001-004"
+    ],
+    "elapsed_ms": 15.97,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-t04",
+    "split": "test",
+    "question": "Khi rủi ro vượt ngưỡng chấp nhận, MS-2.6-003 yêu cầu làm gì với mô hình đã tinh chỉnh?",
+    "answerable": true,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p036-para-000-003",
+        "text": "MS-2.6-003 Re-evaluate safety features of fine-tuned models when the negative risk exceeds organizational risk tolerance. Dangerous, Violent, or Hateful Content",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.6465591788291931,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "nist-ai-600-1-p044-para-000-001",
+        "text": "MG-1.3-001 Document trade-offs, decision processes, and relevant measurement and feedback results for risks that do not surpass organizational risk tolerance, for example, in the context of model release: Consider different approaches for model release, for example, leveraging a staged release approach. Consider release approaches in the context of the model and its projected use cases. Mitigate, transfer, or avoid risks that surpass organizational risk tolerances. Information Security",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 44,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.6326338052749634,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p046-para-003-004",
+        "text": "MG-3.1-003 Re-assess model risks after fine-tuning or retrieval-augmented generation implementation and for any third-party GAI models deployed for applications and/or use cases that were not evaluated in initial testing. Value Chain and Component Integration",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.630770206451416,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p036-para-000-003 | starter/data/NIST.AI.600-1.pdf | page 36]\nMS-2.6-003 Re-evaluate safety features of fine-tuned models when the negative risk exceeds organizational risk tolerance. Dangerous, Violent, or Hateful Content\n\n[nist-ai-600-1-p046-para-003-004 | starter/data/NIST.AI.600-1.pdf | page 46]\nMG-3.1-003 Re-assess model risks after fine-tuning or retrieval-augmented generation implementation and for any third-party GAI models deployed for applications and/or use cases that were not evaluated in initial testing. Value Chain and Component Integration",
+    "context_ids": [
+      "nist-ai-600-1-p036-para-000-003",
+      "nist-ai-600-1-p046-para-003-004"
+    ],
+    "elapsed_ms": 20.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-t05",
+    "split": "test",
+    "question": "MG-3.2-008 đề xuất dùng cách gì để xem lại nội dung được AI tạo ra khi phù hợp?",
+    "answerable": true,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p047-para-001-001",
+        "text": "MG-3.2-001 Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model compression/distillation, gradient-based attributions, occlusion/term reduction, counterfactual prompts, word clouds) as part of ongoing continuous improvement processes to mitigate risks related to unexplainable GAI systems. Harmful Bias and Homogenization",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 47,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.7282532453536987,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p045-para-000-001",
+        "text": "MG-2.2-006 Use feedback from internal and external AI Actors, users, individuals, and communities, to assess impact of AI-generated content. Human-AI Configuration",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 45,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.7067524194717407,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "nist-ai-600-1-p049-para-000-001",
+        "text": "MG-4.1-007 Verify that AI Actors responsible for monitoring reported issues can effectively evaluate GAI system performance including the application of content provenance data tracking techniques, and promptly escalate issues for response. Human-AI Configuration; Information Integrity AI Actor Tasks: AI Deployment, Affected Individuals and Communities, Domain Experts, End-Users, Human Factors, Operation and Monitoring",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 49,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.6850981116294861,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[nist-ai-600-1-p047-para-001-001 | starter/data/NIST.AI.600-1.pdf | page 47]\nMG-3.2-001 Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model compression/distillation, gradient-based attributions, occlusion/term reduction, counterfactual prompts, word clouds) as part of ongoing continuous improvement processes to mitigate risks related to unexplainable GAI systems. Harmful Bias and Homogenization\n\n[nist-ai-600-1-p045-para-000-001 | starter/data/NIST.AI.600-1.pdf | page 45]\nMG-2.2-006 Use feedback from internal and external AI Actors, users, individuals, and communities, to assess impact of AI-generated content. Human-AI Configuration",
+    "context_ids": [
+      "nist-ai-600-1-p047-para-001-001",
+      "nist-ai-600-1-p045-para-000-001"
+    ],
+    "elapsed_ms": 17.89,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-t06",
+    "split": "test",
+    "question": "NIST AI 600-1 cho biết tỷ lệ confabulation của Gemini 3.8 Flash vào năm 2026 là bao nhiêu?",
+    "answerable": false,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p014-para-003-000",
+        "text": "12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 14,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.40621960163116455,
+        "strategy": "dense",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p035-para-001-003",
+        "text": "MS-2.5-003 Review and verify sources and citations in GAI system outputs during pre- deployment risk measurement and ongoing monitoring activities. Confabulation",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 35,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.387373685836792,
+        "strategy": "dense",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p049-para-003-001",
+        "text": "MG-4.3-002 Establish and maintain policies and procedures to record and track GAI system reported errors, near-misses, and negative impacts. Confabulation; Information Integrity",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 49,
+        "metadata": {
+          "section": "MANAGE"
+        },
+        "score": 0.35333967208862305,
+        "strategy": "dense",
+        "hit": null
+      }
+    ],
+    "context": "[nist-ai-600-1-p014-para-003-000 | starter/data/NIST.AI.600-1.pdf | page 14]\n12 See also https://doi.org/10.6028/NIST.AI.100-4, to be published.\n\n[nist-ai-600-1-p035-para-001-003 | starter/data/NIST.AI.600-1.pdf | page 35]\nMS-2.5-003 Review and verify sources and citations in GAI system outputs during pre- deployment risk measurement and ongoing monitoring activities. Confabulation\n\n[nist-ai-600-1-p049-para-003-001 | starter/data/NIST.AI.600-1.pdf | page 49]\nMG-4.3-002 Establish and maintain policies and procedures to record and track GAI system reported errors, near-misses, and negative impacts. Confabulation; Information Integrity",
+    "context_ids": [
+      "nist-ai-600-1-p014-para-003-000",
+      "nist-ai-600-1-p035-para-001-003",
+      "nist-ai-600-1-p049-para-003-001"
+    ],
+    "elapsed_ms": 18.85,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "d7-t07",
+    "split": "test",
+    "question": "NIST AI 600-1 đã chứng nhận sản phẩm AI nào đạt chuẩn vào năm 2026?",
+    "answerable": false,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "results": [
+      {
+        "id": "nist-ai-600-1-p035-para-001-000",
+        "text": "MEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. Action ID Suggested Action Risks",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 35,
+        "metadata": {
+          "section": "MEASURE"
+        },
+        "score": 0.6246893405914307,
+        "strategy": "dense",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p005-para-004-000",
+        "text": "2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.6162060499191284,
+        "strategy": "dense",
+        "hit": null
+      },
+      {
+        "id": "nist-ai-600-1-p006-para-000-002",
+        "text": "Future revisions of this profile will include additional AI RMF subcategories, risks, and suggested actions based on additional considerations of GAI as the space evolves and empirical evidence indicates additional risks. A glossary of terms pertinent to GAI risk management will be developed and hosted on NIST’s Trustworthy & Responsible AI Resource Center (AIRC), and added to The Language of Trustworthy AI: An In-Depth Glossary of Terms.",
+        "source_id": "nist-ai-600-1",
+        "source": "starter/data/NIST.AI.600-1.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "RISK_OVERVIEW"
+        },
+        "score": 0.5781630277633667,
+        "strategy": "dense",
+        "hit": null
+      }
+    ],
+    "context": "[nist-ai-600-1-p035-para-001-000 | starter/data/NIST.AI.600-1.pdf | page 35]\nMEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. Action ID Suggested Action Risks\n\n[nist-ai-600-1-p005-para-004-000 | starter/data/NIST.AI.600-1.pdf | page 5]\n2 This profile was developed per Section 4.1(a)(i)(A) of EO 14110, which directs the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST), to develop a companion resource to the AI RMF, NIST AI 100–1, for generative AI.",
+    "context_ids": [
+      "nist-ai-600-1-p035-para-001-000",
+      "nist-ai-600-1-p005-para-004-000"
+    ],
+    "elapsed_ms": 16.55,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "method": "dense",
+  "split": "dev",
+  "model": "gemini-3.5-flash-lite",
+  "requested_cases": 17,
+  "attempted_cases": 17,
+  "answered": 15,
+  "abstained": 2,
+  "provider_or_tool_errors": 0,
+  "model_calls": 51,
+  "input_tokens_reported": 43987,
+  "output_tokens_reported": 2830,
+  "api_cost_usd": null,
+  "complete": true
+}

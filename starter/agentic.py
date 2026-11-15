@@ -4,7 +4,10 @@ Adapters are intentionally not provided: Day 6 has no fixed database schema and
 model providers differ. Never use fake adapters to report benchmark quality.
 """
 from typing import Any, Protocol
-from baseline import pack_context
+try:
+    from .baseline import pack_context
+except ImportError:  # Keep the starter's original direct-import examples working.
+    from baseline import pack_context
 
 
 class Controller(Protocol):
@@ -30,7 +33,8 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800,
+              prefer_latest: bool = False) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -54,7 +58,13 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             results = retriever.search(query, filters=filters, top_k=top_k)
             if len(results) > top_k or len({r['id'] for r in results}) != len(results):
                 raise ValueError('retriever phải trả tối đa top_k chunk ID duy nhất')
-            candidates.extend(results)
+            if prefer_latest:
+                latest_ids = {r['id'] for r in results}
+                # A new query must be able to replace stale context. Keep older
+                # distinct chunks only while there is room in the budget.
+                candidates = results + [c for c in candidates if c['id'] not in latest_ids]
+            else:
+                candidates.extend(results)
             context, ids = pack_context(candidates, budget=budget)
             chunks = {c['id']: c for c in candidates if c['id'] in ids}
             events.append({'event': 'search', 'query': query, 'filter': filters, 'results': results,

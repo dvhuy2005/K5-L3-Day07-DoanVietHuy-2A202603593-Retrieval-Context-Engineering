@@ -1,0 +1,323 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Người dùng gặp rủi ro gì khi tin vào thông tin sai mà AI nói rất tự tin?",
+    "answerable": true,
+    "expected_answer": "Họ có thể tin, làm theo hoặc lan truyền thông tin sai, dẫn tới quyết định sai.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 10,
+        "evidence": "Risks from confabulations may arise when users believe false content – often due to the confident nature of the response – leading users to act upon or promote the false information."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "NIST gọi hiện tượng AI tự tin tạo ra nội dung sai là gì?",
+    "answerable": true,
+    "expected_answer": "Confabulation.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 10,
+        "evidence": "refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Vì sao chặn các yêu cầu có nội dung nguy hiểm vẫn có thể chưa đủ?",
+    "answerable": true,
+    "expected_answer": "AI vẫn có thể đưa ra gợi ý có hại khi gặp yêu cầu mới hoặc diễn đạt ít rõ ràng hơn.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 11,
+        "evidence": "Many current systems restrict model outputs to limit certain content or in response to certain prompts, but this approach may still produce harmful recommendations in response to other less-explicit, novel prompts (also relevant to CBRN Information or Capabilities, Data Privacy, Information Security, and Obscene, Degrading and/or Abusive Content)."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Những hoạt động nào của AI tạo sinh có thể gây tác động lớn tới năng lượng và môi trường?",
+    "answerable": true,
+    "expected_answer": "Huấn luyện, duy trì và vận hành mô hình.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 12,
+        "evidence": "Training, maintaining, and operating (running inference on) GAI systems are resource-intensive activities, with potentially large energy and environmental footprints."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Theo NIST, lạm dụng dữ liệu tổng hợp khi huấn luyện có thể gây ra hiện tượng gì?",
+    "answerable": true,
+    "expected_answer": "Model collapse: một số điểm dữ liệu biến mất khỏi phân bố đầu ra của mô hình mới.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 13,
+        "evidence": "Model collapse can occur when model training over-relies on synthetic data, resulting in data points disappearing from the distribution of the new model’s outputs."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Trong tấn công prompt injection trực tiếp, kẻ tấn công đưa nội dung độc hại vào AI bằng cách nào?",
+    "answerable": true,
+    "expected_answer": "Họ tự tạo và nhập yêu cầu độc hại trực tiếp vào hệ thống AI.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 15,
+        "evidence": "In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Prompt injection gián tiếp đưa chỉ dẫn độc hại tới ứng dụng AI bằng đường nào?",
+    "answerable": true,
+    "expected_answer": "Kẻ tấn công chèn chỉ dẫn vào dữ liệu mà ứng dụng có thể truy xuất, không cần giao diện trực tiếp.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 15,
+        "evidence": "Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Vì sao các thành phần AI lấy từ bên thứ ba có thể làm giảm trách nhiệm giải trình?",
+    "answerable": true,
+    "expected_answer": "Chúng có thể được lấy không đúng cách hoặc chưa được thẩm định kỹ.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 16,
+        "evidence": "These components might be improperly obtained or not properly vetted, leading to diminished transparency or accountability for downstream users."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "NIST nêu những kiểu tác động nào thuộc rủi ro riêng tư dữ liệu?",
+    "answerable": true,
+    "expected_answer": "Rò rỉ, dùng hoặc tiết lộ trái phép, hoặc tái nhận dạng dữ liệu cá nhân và dữ liệu nhạy cảm.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 8,
+        "evidence": "Data Privacy: Impacts due to leakage and unauthorized use, disclosure, or de-anonymization of biometric, health, location, or other personally identifiable information or sensitive data."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "NIST gợi ý tổ chức ghi lại điều gì để tăng minh bạch nội dung AI?",
+    "answerable": true,
+    "expected_answer": "Nguồn gốc và lịch sử của dữ liệu huấn luyện cũng như dữ liệu được AI tạo ra.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 18,
+        "evidence": "GV-1.2-001 Establish transparency policies and processes for documenting the origin and history of training data and generated data for GAI applications to advance digital content transparency, while balancing the proprietary nature of training approaches."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "NIST gợi ý tổ chức xác định trách nhiệm gì khi theo dõi hệ thống AI định kỳ?",
+    "answerable": true,
+    "expected_answer": "Trách nhiệm rà soát nguồn gốc nội dung và giám sát sự cố theo định kỳ.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 20,
+        "evidence": "GV-1.5-001 Define organizational responsibilities for periodic review of content provenance and incident monitoring for GAI systems."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong phần MAP, NIST gợi ý phối hợp với ai khi xác định bối cảnh sử dụng AI có thể chấp nhận?",
+    "answerable": true,
+    "expected_answer": "Các chuyên gia về văn hóa xã hội và các lĩnh vực liên quan.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 27,
+        "evidence": "MP-1.1-002 Determine and document the expected and acceptable GAI system context of use in collaboration with socio-cultural and other domain experts"
+      }
+    ],
+    "filter": {
+      "section": "MAP"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Trong phần MEASURE, NIST gợi ý theo dõi tác động của AI liên tục để kiểm tra điều gì giữa các nhóm người?",
+    "answerable": true,
+    "expected_answer": "Kiểm tra đầu ra AI có công bằng giữa các nhóm dân cư khác nhau hay không.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 33,
+        "evidence": "MS-1.1-006 Implement continuous monitoring of GAI system impacts to identify whether GAI outputs are equitable across various sub-populations."
+      }
+    ],
+    "filter": {
+      "section": "MEASURE"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong phần MANAGE, tổ chức có những cách nào để ứng phó với rủi ro AI?",
+    "answerable": true,
+    "expected_answer": "Giảm thiểu, chuyển giao, tránh hoặc chấp nhận rủi ro.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 44,
+        "evidence": "Risk response options can include mitigating, transferring, avoiding, or accepting."
+      }
+    ],
+    "filter": {
+      "section": "MANAGE"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "NIST gợi ý chính sách lưu trữ hồ sơ nhằm giữ lại lịch sử của hoạt động nào?",
+    "answerable": true,
+    "expected_answer": "Lịch sử kiểm thử, đánh giá, xác nhận, kiểm chứng và phương pháp minh bạch nội dung số.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 20,
+        "evidence": "GV-1.5-003 Maintain a document retention policy to keep history for test, evaluation, validation, and verification (TEVV), and digital content transparency methods for GAI."
+      }
+    ]
+  },
+  {
+    "id": "d7-t01",
+    "split": "test",
+    "question": "Theo GV-1.7-001, tổ chức cần chuẩn bị khả năng nào cho hệ thống AI tạo sinh?",
+    "answerable": true,
+    "expected_answer": "Có quy trình để vô hiệu hóa hệ thống khi cần.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 21,
+        "evidence": "GV-1.7-001 Protocols are put in place to ensure GAI systems are able to be deactivated when necessary."
+      }
+    ]
+  },
+  {
+    "id": "d7-t02",
+    "split": "test",
+    "question": "Chức năng giám sát tổ chức nên bao phủ những giai đoạn nào của vòng đời AI tạo sinh?",
+    "answerable": true,
+    "expected_answer": "Từ xác định bài toán và chuỗi cung ứng tới khi ngừng hệ thống.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 23,
+        "evidence": "across the GAI lifecycle, from problem formulation and supply chains to system decommission."
+      }
+    ]
+  },
+  {
+    "id": "d7-t03",
+    "split": "test",
+    "question": "GV-5.1-001 yêu cầu phân bổ những gì cho việc tiếp nhận phản hồi và khắc phục?",
+    "answerable": true,
+    "expected_answer": "Thời gian và nguồn lực.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 24,
+        "evidence": "GV-5.1-001 Allocate time and resources for outreach, feedback, and recourse processes in GAI system development."
+      }
+    ]
+  },
+  {
+    "id": "d7-t04",
+    "split": "test",
+    "question": "Khi rủi ro vượt ngưỡng chấp nhận, MS-2.6-003 yêu cầu làm gì với mô hình đã tinh chỉnh?",
+    "answerable": true,
+    "expected_answer": "Đánh giá lại các tính năng an toàn của mô hình.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 36,
+        "evidence": "MS-2.6-003 Re-evaluate safety features of fine-tuned models when the negative risk exceeds organizational risk tolerance."
+      }
+    ]
+  },
+  {
+    "id": "d7-t05",
+    "split": "test",
+    "question": "MG-3.2-008 đề xuất dùng cách gì để xem lại nội dung được AI tạo ra khi phù hợp?",
+    "answerable": true,
+    "expected_answer": "Dùng hệ thống kiểm duyệt bởi con người.",
+    "gold": [
+      {
+        "source_id": "nist-ai-600-1",
+        "page": 48,
+        "evidence": "MG-3.2-008 Use human moderation systems where appropriate to review generated content"
+      }
+    ]
+  },
+  {
+    "id": "d7-d16",
+    "split": "dev",
+    "question": "NIST AI 600-1 nêu tên bệnh viện nào ở Việt Nam đã triển khai kiểm soát confabulation?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là hồ sơ quản lý rủi ro, không phải danh sách triển khai tại bệnh viện Việt Nam."
+  },
+  {
+    "id": "d7-d17",
+    "split": "dev",
+    "question": "Theo NIST AI 600-1, lệ phí bắt buộc bằng USD để được chứng nhận tuân thủ là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không quy định chương trình chứng nhận hay bảng lệ phí tuân thủ."
+  },
+  {
+    "id": "d7-t06",
+    "split": "test",
+    "question": "NIST AI 600-1 cho biết tỷ lệ confabulation của Gemini 3.8 Flash vào năm 2026 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu xuất bản năm 2024, không thể báo cáo phép đo model ra năm 2026."
+  },
+  {
+    "id": "d7-t07",
+    "split": "test",
+    "question": "NIST AI 600-1 đã chứng nhận sản phẩm AI nào đạt chuẩn vào năm 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là profile rủi ro, không phải danh sách sản phẩm được chứng nhận năm 2026."
+  }
+]
